@@ -13,7 +13,7 @@ class Box {
   }
   display(){
     
-    if (this.body.speed<9){
+    if (this.body.speed<6 ){
       push(); 
       translate(this.body.position.x,this.body.position.y);
       rotate(this.body.angle);
